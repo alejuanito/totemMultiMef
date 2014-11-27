@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="tmmef">
+		<class>pe.com.certicom.mef.model.KmAtencion</class>
+		<class>pe.com.certicom.mef.model.KmCapacitacione</class>
+		<class>pe.com.certicom.mef.model.KmCentroUser</class>
+		<class>pe.com.certicom.mef.model.KmFilesDire</class>
+		<class>pe.com.certicom.mef.model.KmInfoDireccion</class>
+		<class>pe.com.certicom.mef.model.KmLog</class>
+		<class>pe.com.certicom.mef.model.KmModulo</class>
+		<class>pe.com.certicom.mef.model.KmParametro</class>
+		<class>pe.com.certicom.mef.model.KmPerUsu</class>
+		<class>pe.com.certicom.mef.model.KmPregFrec</class>
+		<class>pe.com.certicom.mef.model.KmTmCenAtencion</class>
+		<class>pe.com.certicom.mef.model.KmTmKiosko</class>
+		<class>pe.com.certicom.mef.model.KmTmRubroPre</class>
+		<class>pe.com.certicom.mef.model.KmTmUsuario</class>
+		<class>pe.com.certicom.mef.model.KmUserRol</class>
 	</persistence-unit>
 </persistence>
